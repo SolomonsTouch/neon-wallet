@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Claim should not render claim GAS button when claim button is disabled 1`] = `
+<div>
+  <Tooltip
+    disabled={false}
+    title="You can claim GAS once every 5 minutes"
+  >
+    <Button
+      cancel={false}
+      disabled={true}
+      id="claim"
+      onClick={[Function]}
+      primary={true}
+      secondary={false}
+    >
+      Claim 
+      10.00000000
+       GAS
+    </Button>
+  </Tooltip>
+</div>
+`;
+
+exports[`Claim should render claim GAS button when claim button is not disabled 1`] = `
+<div>
+  <Tooltip
+    disabled={true}
+    title="You can claim GAS once every 5 minutes"
+  >
+    <Button
+      cancel={false}
+      disabled={false}
+      id="claim"
+      onClick={[Function]}
+      primary={true}
+      secondary={false}
+    >
+      Claim 
+      10.00000000
+       GAS
+    </Button>
+  </Tooltip>
+</div>
+`;
+
+exports[`Claim should render without crashing 1`] = `
+<Claim
+  claimAmount={10}
+  claimRequest={false}
+  claimWasUpdated={false}
+  disableClaimButton={false}
+  doClaimNotify={[Function]}
+  doGasClaim={[Function]}
+  setClaimRequest={[Function]}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  storeSubscription={
+    Subscription {
+      "listeners": Object {
+        "clear": [Function],
+        "get": [Function],
+        "notify": [Function],
+        "subscribe": [Function],
+      },
+      "onStateChange": [Function],
+      "parentSub": undefined,
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "unsubscribe": [Function],
+    }
+  }
+/>
+`;

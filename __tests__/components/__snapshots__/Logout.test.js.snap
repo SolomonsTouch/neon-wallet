@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Logout should render without crashing 1`] = `
+<div
+  className="logout"
+  id="logout"
+  onClick={[Function]}
+>
+  <Link
+    replace={false}
+    to=""
+  >
+    <Tooltip
+      title="Logout"
+    >
+      <MdPowerSettingsNew />
+    </Tooltip>
+  </Link>
+</div>
+`;

@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WalletInfo renders without crashing 1`] = `
+<WalletInfo
+  GAS="1000.0001601"
+  NEO="100001"
+  address="ANqUrhv99rwCiFTL6N1An9NH5UVkPYxTuw"
+  currencyCode="usd"
+  gasPrice={18.1}
+  loadWalletData={[Function]}
+  neoPrice={25.48}
+  net="TestNet"
+  showErrorNotification={[Function]}
+  showModal={[Function]}
+  showSuccessNotification={[Function]}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  storeSubscription={
+    Subscription {
+      "listeners": Object {
+        "clear": [Function],
+        "get": [Function],
+        "notify": [Function],
+        "subscribe": [Function],
+      },
+      "onStateChange": [Function],
+      "parentSub": undefined,
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "unsubscribe": [Function],
+    }
+  }
+/>
+`;
